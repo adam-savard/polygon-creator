@@ -1,0 +1,32 @@
+{
+  "name": "polygon-creator",
+  "version": "1.0.0",
+  "description": "Create polygons that can be exported via JSON for use in other programs",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^10.0.0",
+    "pixi.js": "^5.3.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adam-savard/polygon-creator.git"
+  },
+  "keywords": [
+    "pixi.js",
+    "polygon",
+    "drawing"
+  ],
+  "author": "Adam Savard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adam-savard/polygon-creator/issues"
+  },
+  "homepage": "https://github.com/adam-savard/polygon-creator#readme"
+}
